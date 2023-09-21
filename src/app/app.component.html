@@ -2,10 +2,10 @@
   <ion-split-pane contentId="main-content">
     <ion-menu contentId="main-content">
       <ion-content>
-          <ion-img src="/assets/img/meclogo.png" alt="miningexpologo" ></ion-img>
+          <ion-img src="/assets/img/about.jpg" alt="ictsummitlogo" ></ion-img>
         <ion-list lines="none">
           <ion-list-header>
-            Mining Expo
+            ICT Summit
           </ion-list-header>
           <ion-menu-toggle autoHide="false" *ngFor="let p of appPages; let i = index">
             <ion-item [routerLink]="p.url" routerLinkActive="selected" routerDirection="root" detail="false">
@@ -75,8 +75,6 @@
               <ion-icon slot="start" name="hammer"></ion-icon>
               <ion-label>Welcome</ion-label>
             </ion-item>
-              <ion-img src="/assets/img/rmbLogo.png" alt="rmblogo">
-              </ion-img>
           </ion-menu-toggle>
         </ion-list>
       </ion-content>

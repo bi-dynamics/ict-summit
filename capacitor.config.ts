@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.bid.miningexpo',
-  appName: 'Mining Expo',
+  appId: 'com.ictsummit.nam',
+  appName: 'ICT Summit',
   webDir: 'www',
   bundledWebRuntime: false,
   plugins: {
