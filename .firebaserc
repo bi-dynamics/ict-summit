@@ -1,12 +1,19 @@
 {
   "projects": {
-    "default": "mining-expo-bc804"
+    "default": "ict-summit-f31ee"
   },
   "targets": {
     "mining-expo-bc804": {
       "hosting": {
         "app": [
           "mining-expo-bc804"
+        ]
+      }
+    },
+    "ict-summit-f31ee": {
+      "hosting": {
+        "app": [
+          "ict-summit-f31ee"
         ]
       }
     }

@@ -1,13 +1,12 @@
 export const environment = {
   firebase: {
-    projectId: 'mining-expo-bc804',
-    appId: '1:62716428182:web:25c49a91cf0b6be8aa67b7',
-    storageBucket: 'mining-expo-bc804.appspot.com',
-    locationId: 'us-central',
-    apiKey: 'AIzaSyA4ieOO-HEl7GyhdDR1aj8_7yRjI5IRinM',
-    authDomain: 'mining-expo-bc804.firebaseapp.com',
-    messagingSenderId: '62716428182',
-    measurementId: 'G-J6Q77G3MC4',
+    projectId: 'ict-summit-f31ee',
+    appId: '1:831297288574:web:b405c2ce9103947e85db2f',
+    storageBucket: 'ict-summit-f31ee.appspot.com',
+    apiKey: 'AIzaSyBSv_M7kbUiOTb6XGOXASjM5IESTpF0m8I',
+    authDomain: 'ict-summit-f31ee.firebaseapp.com',
+    messagingSenderId: '831297288574',
+    measurementId: 'G-1PYG6DE02B',
   },
   production: true
 };
