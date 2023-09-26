@@ -23,61 +23,41 @@ import { AuthService } from './services/auth.service';
 export class AppComponent implements OnInit {
   appPages = [
     {
-      title: 'Main Expo Programme',
-      url: '/app/tabs/schedule',
+      title: 'Register as a Conf. Delegate',
+      url: '/app/tabs/register',
+      icon: 'hammer'
+    },
+    {
+      title: 'Agenda',
+      url: '/app/tabs/agenda',
       icon: 'calendar'
+    },
+    {
+      title: 'Scan',
+      url: '/app/tabs/scanner',
+      icon: 'scan'
+    },
+    {
+      title: 'Speakers',
+      url: '/app/tabs/speakers',
+      icon: 'people'
+    },
+  ];
+  appPages_1 = [
+
+
+ ]
+  appPages_2 = [
+    {
+      title: 'Sponsors',
+      url: '/app/tabs/sponsor',
+      icon: 'briefcase'
     },
     {
       title: 'Exhibitors',
       url: '/app/tabs/exhibitor-list',
       icon: 'information-circle'
-    },
-    {
-      title: 'Floor Plan',
-      url: '/app/tabs/map',
-      icon: 'map'
-    },
-  ];
-  appPages_1 = [
-    {
-      title: 'Register as a Conf. Delegate',
-      url: '/app/tabs/register',
-      icon: 'hammer'
-    },
-  {
-    title: 'Mining Conference Programme',
-    url: '/app/tabs/agenda',
-    icon: 'time'
-  },
-  {
-    title: 'Speakers',
-    url: '/app/tabs/speakers',
-    icon: 'people'
-  },
-  {
-    title: 'Scan',
-    url: '/app/tabs/scanner',
-    icon: 'scan'
-  },
-  {
-    title: 'Broadcasting',
-    url: '/app/tabs/broadcasting',
-    icon: 'caret-forward'
-  },
- ]
-  appPages_2 = [
-    {
-      title: "Supplier's Platform",
-      url: '/app/tabs/supplier',
-      icon: 'briefcase'
-    },
-    {
-      title: "B2B",
-      url: '/app/tabs/btb',
-      icon: 'cafe'
-    },
-
-
+    }
   ]
   loggedIn = false;
   dark = false;

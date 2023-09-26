@@ -9,8 +9,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'schedule',
-    loadChildren: () => import('./pages/schedule/schedule.module').then(m => m.ScheduleModule)
+    path: 'sponsors',
+    loadChildren: () => import('./pages/sponsors/sponsors.module').then( m => m.SponsorsPageModule)
   },
   {
     path: 'account',
@@ -56,10 +56,6 @@ const routes: Routes = [
   {
     path: 'details/:id',
     loadChildren: () => import('./pages/details/details.module').then(m => m.DetailsModule)
-  },,
-  {
-    path: 'session/:sessionId',
-    loadChildren: () => import('./pages/session-detail/session-detail.module').then(m => m.SessionDetailModule)
   },
   {
     path: 'agenda-item/:id',
