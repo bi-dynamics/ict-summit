@@ -1,5 +1,6 @@
 export enum SponsorTier {
   Platinum = 'platinum',
+  Diamond = 'diamond',
   Gold = 'gold',
   Silver = 'silver',
   Bronze = 'bronze'

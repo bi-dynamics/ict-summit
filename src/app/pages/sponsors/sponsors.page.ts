@@ -11,7 +11,7 @@ export class SponsorsPage implements OnInit {
   public platinumSponsors: Sponsor[] = [];
   public goldSponsors: Sponsor[] = [];
   public silverSponsors: Sponsor[] = [];
-  public bronzeSponsors: Sponsor[] = [];
+  public diamondSponsors: Sponsor[] = [];
 
   constructor(
     private sponsorService: SponsorService
@@ -37,9 +37,9 @@ export class SponsorsPage implements OnInit {
             sponsor
           ]
           break;
-        case SponsorTier.Bronze:
-          this.bronzeSponsors = [
-            ...this.bronzeSponsors,
+        case SponsorTier.Diamond:
+          this.diamondSponsors = [
+            ...this.diamondSponsors,
             sponsor
           ]
           break;
