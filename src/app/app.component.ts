@@ -23,11 +23,6 @@ import { AuthService } from './services/auth.service';
 export class AppComponent implements OnInit {
   appPages = [
     {
-      title: 'Register as a Conf. Delegate',
-      url: '/app/tabs/register',
-      icon: 'hammer'
-    },
-    {
       title: 'Agenda',
       url: '/app/tabs/agenda',
       icon: 'calendar'
